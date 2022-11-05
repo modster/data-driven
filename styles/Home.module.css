@@ -1,10 +1,13 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -126,4 +129,5 @@
   .logo img {
     filter: invert(1);
   }
+
 }
